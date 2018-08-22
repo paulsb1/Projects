@@ -1,0 +1,15 @@
+Blu Ray|Deep Purple|California Jam 1974|199
+Blu Ray|Steve Vai|Stillness in Motion|229
+CD|AC/DC|Back in Black|149
+CD|Gary Moore|After the War|149
+CD|Guns N' Roses|Apetite for Destruction|149
+CD|Iron Maiden|A Matter of Life and Death|169
+CD|Iron Maiden|Brave New World|169
+CD|Led Zeppelin|Led Zeppelin IV|149
+CD|Michael Jackson|Thriller|149
+CD|Pink Floyd|The Dark Side of The Moon|149
+CD|Pink Floyd|The Wall|199
+CD|Queen|A Night at the Opera|149
+DVD|Iron Maiden|Rock in Rio|199
+Vinyl|Led Zeppelin|Led Zeppelin|199
+Vinyl|Van Halen|Van Halen I|199

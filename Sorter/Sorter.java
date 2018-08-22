@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 class Sorter{
     public static void main(String[] args) throws FileNotFoundException {
     	if(args.length != 2) {
-    		System.out.println("Usage: java Main [input file] [output file]");
+    		System.out.println("Usage: java Sorter [input file] [output file]");
     		System.exit(0);
     	}
     	String input_file = args[0];
