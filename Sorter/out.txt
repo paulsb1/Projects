@@ -439,7 +439,7 @@ Mienshao
 Mightyena
 Milotic
 Miltank
-Mime Jr.
+MimeJr.
 Mimikyu
 Minccino
 Minior
@@ -450,7 +450,7 @@ Moltres
 Monferno
 Morelull
 Mothim
-Mr. Mime
+Mr.Mime
 Mudbray
 Mudkip
 Mudsdale
@@ -690,10 +690,10 @@ Taillow
 Talonflame
 Tangela
 Tangrowth
-Tapu Bulu
-Tapu Fini
-Tapu Koko
-Tapu Lele
+TapuBulu
+TapuFini
+TapuKoko
+TapuLele
 Tauros
 Teddiursa
 Tentacool
@@ -729,7 +729,7 @@ Turtonator
 Turtwig
 Tympole
 Tynamo
-Type: Null
+Type:Null
 Typhlosion
 Tyranitar
 Tyrantrum
