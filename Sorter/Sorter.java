@@ -67,7 +67,7 @@ class Sorter{
                     // position to place the word.
                     while(cmp > 0 && j < sorted.size()) {
                         String cmp_to = sorted.get(j).get_content().toLowerCase();
-                        cmp = compare(cur.toLowerCase(), cmp_to);
+                        cmp = cur.toLowerCase().compareTo(cmp_to);
                         if(cmp <= 0) break;
                         j++;
                     }
