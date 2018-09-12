@@ -90,14 +90,19 @@ class Sorter{
     }
 
     /* 
-     * Removes all non-alphabetical characters from a word except the
-     * hyphen. Returns null if word consisted only of numbers and/or 
-     * punctuation marks or symbols. 
+     * Checks if a word matches a specified pattern containing only
+     * alphabetical characters with an optional hyphen in the middle
+     * of the word. If it doesn't, it will remove all non-alphabetical
+     * characters from the word, and check that it still has content. 
+     * If the length of the word is 0, null will be returned as the 
+     * word didn't contain any alphabetical characters. 
      */
     String check_word(String word) {
-        word = word.replaceAll("[^A-Za-z\\-]", "");
+        if(word.matches("[A-Za-z]+[\\-]?[A-Za-z]*")) return word;
+
+        word = word.replaceAll("[^A-Za-z]", "");
         if(word.length() == 0) return null;
-        if(word.matches("[\\-]+")) return null; // Special case for only hyphens.
+        
         return word;
     }
 
@@ -112,16 +117,9 @@ class Sorter{
             System.exit(0);
         }
 
-        if(occ_flag) {
-            for(int i = 0; i < sorted.size(); i++) {
-                pw.print(sorted.get(i).get_cont_occ());
-                if(i != sorted.size()-1) pw.print("\n");
-            }
-        } else {
-            for(int i = 0; i < sorted.size(); i++) {
-                pw.print(sorted.get(i).get_content()); 
-                if(i != sorted.size()-1) pw.print("\n");
-            }
+        for(int i = 0; i < sorted.size(); i++) {
+            pw.print(sorted.get(i).get_content(occ_flag));
+            if(i != sorted.size()-1) pw.print("\n");
         }
         
         pw.close();

@@ -15,7 +15,8 @@ public class Word {
 		return content;
 	}
 
-	public String get_cont_occ() {
+	public String get_content(boolean occ_flag) {
+		if(!occ_flag) return content;
 		return content + ", occurrences: " + occurrences;
 	}
 }
